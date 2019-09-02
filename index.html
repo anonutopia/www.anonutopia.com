@@ -1,11 +1,6 @@
 <script type="text/javascript">
       const authData = { data: "Auth on my site" };
-    WavesKeeper.auth(authData)
-        .then(auth => {
-            console.log(auth); //displaying the result on the console
-            /*...processing data */
-        }).catch(error => {
-            console.error(error); // displaying the result on the console
-            /*...processing errors */
-        })
+    console.log(authData);
+      console.log(WavesKeeper);
+      console.log(window.WavesKeeper);
 </script>
