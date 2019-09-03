@@ -13,7 +13,12 @@
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://www.anonutopia.com/contact/</loc>
+  <loc>https://www.anonutopia.com/about</loc>
+  <lastmod>2018-09-29T05:23:57+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.anonutopia.com/contact</loc>
   <lastmod>2018-09-29T05:23:57+00:00</lastmod>
   <priority>0.80</priority>
 </url>
