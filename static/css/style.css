@@ -260,6 +260,10 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
     color: #FFF;
 }
 
+.main-btn:focus {
+    color: #FFF;
+}
+
 .white-btn {
     background: #FFF;
     color: #10161A !important;
