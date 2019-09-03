@@ -138,18 +138,18 @@ var ttlSupply = -1;
 		"RS": true,
 	};
 
-	var map = new Datamap({
-        element: document.getElementById('container'),
-		fills: {
-			ORACLE: '#c40b0b',
-            defaultFill: '#adadad' // Any hex, color name or rgb/rgba value
-        },
-		data: {
-            HRV: { fillKey: 'ORACLE' },
-            SRB: { fillKey: 'ORACLE' }
-        },
-		responsive: true
-    });
+	// var map = new Datamap({
+    //     element: document.getElementById('container'),
+	// 	fills: {
+	// 		ORACLE: '#c40b0b',
+    //         defaultFill: '#adadad' // Any hex, color name or rgb/rgba value
+    //     },
+	// 	data: {
+    //         HRV: { fillKey: 'ORACLE' },
+    //         SRB: { fillKey: 'ORACLE' }
+    //     },
+	// 	responsive: true
+    // });
 
 })(jQuery);
 
