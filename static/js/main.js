@@ -8,7 +8,9 @@ var ttlSupply = -1;
 	$(window).on('load', function() {
 		// if (window.location.pathname != '/coins/' && window.location.pathname != '/ethereum/') {
         //     $("#preloader").delay(600).fadeOut();
-        // }
+		// }
+		$("#preloader").delay(600).fadeOut();
+
         $("#main-nav a").each(function() {
             // alert($(this).attr('href'));
             if ($(this).attr('href') == window.location.pathname) {
