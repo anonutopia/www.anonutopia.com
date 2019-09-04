@@ -41,7 +41,6 @@ var ttlSupply = -1;
 	// });
 
 	$(".home-content a[href^='#']").on('click', function(e) {
-		alert("fdsafsa")
 		e.preventDefault();
 		var hash = this.hash;
 		$('html, body').animate({
