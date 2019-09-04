@@ -31,7 +31,17 @@ var ttlSupply = -1;
 
 	///////////////////////////
 	// Smooth scroll
-	$("#nav .main-nav a[href^='#']").on('click', function(e) {
+	// $("#nav .main-nav a[href^='#']").on('click', function(e) {
+	// 	alert("fdsafsa")
+	// 	e.preventDefault();
+	// 	var hash = this.hash;
+	// 	$('html, body').animate({
+	// 		scrollTop: $(this.hash).offset().top
+	// 	}, 600);
+	// });
+
+	$(".home-content a[href^='#']").on('click', function(e) {
+		alert("fdsafsa")
 		e.preventDefault();
 		var hash = this.hash;
 		$('html, body').animate({
