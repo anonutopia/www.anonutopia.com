@@ -132,7 +132,9 @@ var ttlSupply = -1;
     var referral = getReferralFromUrl();
 
     if (referral) {
-        Cookies.set('referral', referral, { expires: 30, domain: getDomainName(window.location.hostname) });
+		Cookies.set('referral', referral, { expires: 30, domain: getDomainName(window.location.hostname) });
+		var urlSplit = window.location.href.split("?");
+		window.location.href = urlSplit[0];
     }
     
     //  else {
