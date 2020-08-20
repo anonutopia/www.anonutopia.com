@@ -23,6 +23,11 @@
   <priority>0.80</priority>
 </url>
 <url>
+  <loc>https://www.anonutopia.com/beginner</loc>
+  <lastmod>2020-08-20T05:23:57+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
   <loc>https://www.anonutopia.com/mine</loc>
   <lastmod>2020-08-08T05:23:57+00:00</lastmod>
   <priority>0.80</priority>
@@ -40,6 +45,11 @@
 <url>
   <loc>https://www.anonutopia.com/anonsrobot</loc>
   <lastmod>2020-08-08T05:23:57+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.anonutopia.com/pi-comparison</loc>
+  <lastmod>2020-08-20T05:23:57+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
