@@ -142,7 +142,8 @@ var ttlSupply = -1;
 
 	if (ref) {
 		$(".robot").each(function() {
-			$(this).attr('href', '?start=' + ref);
+			var old = $(this).attr('href');
+			$(this).attr('href', old + '?start=' + ref);
 		});
 	}
     
