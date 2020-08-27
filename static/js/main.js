@@ -128,14 +128,23 @@ var ttlSupply = -1;
 			}
 		}
 	});
-
+	
     var referral = getReferralFromUrl();
 
     if (referral) {
 		Cookies.set('referral', referral, { expires: 30, domain: getDomainName(window.location.hostname) });
 		var urlSplit = window.location.href.split("?");
 		window.location.href = urlSplit[0];
-    }
+		return;
+	}
+	
+	var ref = Cookies.get('referral');
+
+	if (ref) {
+		$(".robot").each(function() {
+			$(this).attr('href', '?start=' + ref);
+		});
+	}
     
     //  else {
     //     ref = Cookies.get('ref');
