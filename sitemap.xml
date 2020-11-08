@@ -13,6 +13,11 @@
   <priority>1.00</priority>
 </url>
 <url>
+  <loc>https://www.anonutopia.com/about</loc>
+  <lastmod>2020-11-08T05:23:57+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
   <loc>https://www.anonutopia.com/black-paper</loc>
   <lastmod>2020-10-20T05:23:57+00:00</lastmod>
   <priority>0.80</priority>
